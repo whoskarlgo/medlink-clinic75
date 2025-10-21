@@ -1047,3 +1047,29 @@ html {
         padding: 8px 5px;
     }
 }
+/* Social Media Icons Styling */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-icon:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transform: translateY(-2px);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Specific platform colors on hover */
+.social-icon:hover .fa-facebook-f { color: #1877f2; }
+.social-icon:hover .fa-instagram { color: #e4405f; }
+.social-icon:hover .fa-x-twitter { color: #000000; } 
